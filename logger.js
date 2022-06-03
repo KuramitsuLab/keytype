@@ -12,7 +12,7 @@ const https = require('https');
 const KEY='OjwoF3m0l20OFidHsRea3ptuQRfQL10ahbEtLa'
 const ID1 = '2twhynojr3';
 const AREA = 'ap-northeast-1';
-const URL = `https://${ID1}.execute-api.${AREA}.amazonaws.com/dev/`;
+const URL = `/dev/`;
 
 var SESSION = String(uuidv4);
 var SEQ = 0;
